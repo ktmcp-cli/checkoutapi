@@ -1,0 +1,36 @@
+{
+  "name": "@ktmcp-cli/checkoutapi",
+  "version": "1.0.0",
+  "description": "Production-ready CLI for Checkout.com API - Payment processing and checkout",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "checkoutapi": "./bin/checkoutapi.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node bin/checkoutapi.js"
+  },
+  "keywords": [
+    "checkout",
+    "checkout.com",
+    "payments",
+    "payment-processing",
+    "payment-gateway",
+    "cli",
+    "api"
+  ],
+  "author": "KTMCP",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.1",
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1",
+    "conf": "^12.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
